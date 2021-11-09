@@ -11,6 +11,11 @@
      <h2> Envio automatico de email via Google Sheets</h2>
      </div>
      <h3> Ultilização da API de email da GOOGLE.</h3>
+     <div>O Usuario coloca as informações que serão necessárias, contendo os apontamentos do colaborador</div>
      <img width="900px" src="/img/Capturar.PNG"></img>
+     <div>
+        Os colaboradores recebem individualmente os emails com seus apontamentos, com o fim de corrigir, e informar ao gestor, que da prosseguimento.
+     </div>
+     <img width="900px" src="/img/emailEnviado.PNG"></img>
 </body>
 </html>
