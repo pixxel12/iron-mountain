@@ -1,6 +1,7 @@
 
 /**
- * Variaveis de scopo global para acesso as guias do Sheets
+ * Variaveis de scopo global para acesso as guias do Google Sheets
+ * 
  */
  var planilha = SpreadsheetApp.getActiveSpreadsheet();
  var guiaapontamento = planilha.getSheetByName("apontamento");
