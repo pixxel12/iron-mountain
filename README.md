@@ -7,6 +7,10 @@
     
 </head>
 <body>
-     <h2> TESTE</h2>
+    <div style="border: 1px; border-radius: 3px; border-color: aliceblue;">
+     <h2> Envio automatico de email via Google Sheets</h2>
+     </div>
+     <h3> Ultilização da API de email da GOOGLE.</h3>
+     <img width="900px" src="/img/Capturar.PNG"></img>
 </body>
 </html>
