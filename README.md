@@ -15,8 +15,9 @@
      <img width="900px" src="/img/Capturar.PNG"></img>
      <div>
         <h2>Email que chega na caixa de mensagens do colaborador</h2>
-        Os colaboradores recebem individualmente os emails com seus apontamentos, com o fim de corrigir, e informar ao gestor, que da prosseguimento. <br>
+        Os colaboradores recebem individualmente os emails com seus apontamentos, com o fim de corrigir, e informar ao gestor, que da prosseguimento.
      </div>
+     <br>
      <img width="900px" src="/img/emailEnviado.PNG"></img>
 </body>
 </html>
