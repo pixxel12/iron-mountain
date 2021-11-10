@@ -13,9 +13,10 @@
   */
  function enviaEmail() {
    filtroEmail()
-   let conteudoEmail = bodyEmail()
-   while (guiadados.getRange("A8").getValue() != "") {
-     email = deleteEnviado()
+   let ultimaLinhaPreenchida = pegarObjetoUltimalinha()
+   for (let i=8; i <= ultimaLinhaPreenchida['guiaDadosUltimaLinha']; i++){
+     let conteudoEmail = bodyEmail()
+     let email = deleteEnviado()
      let mensagem = {
        to: email,
        subject: "Correção de Processos ⏰",
@@ -31,7 +32,8 @@
   * @return{void}
   */
  function filtroEmail() {
-   for (let i = 8; i <= 30; i++) {
+   let ultimaLinha = pegarObjetoUltimalinha()
+   for (let i = 8; i <= ultimaLinha['guiaDadosUltimaLinha']; i++) {
      guiadados.getRange("Q" + i).setFormula('=IFERROR(VLOOKUP(C:C;lista_email!A2:C75;2;FALSE);"")');
    }
  }
