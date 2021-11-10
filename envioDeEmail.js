@@ -34,7 +34,7 @@
  function filtroEmail() {
    let ultimaLinha = pegarObjetoUltimalinha()
    for (let i = 8; i <= ultimaLinha['guiaDadosUltimaLinha']; i++) {
-     guiadados.getRange("Q" + i).setFormula('=IFERROR(VLOOKUP(C:C;lista_email!A2:C75;2;FALSE);"")');
+     guiadados.getRange("Q" + i).setFormula('=IFERROR(VLOOKUP(C:C;lista_email!A2:C130;2;FALSE);"")');
    }
  }
  /**
