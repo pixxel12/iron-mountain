@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -16,9 +16,12 @@
      <div>
         <h2>Email que chega na caixa de mensagens do colaborador</h2>
         </div>
-        <div>Os colaboradores recebem individualmente os emails com seus apontamentos, com o fim de corrigir, e informar ao gestor, que da prosseguimento.
+        <div>Os colaboradores recebem individualmente os emails com seus apontamentos, com o fim de corrigir, e informar ao gestor, para dar prosseguimento com as correções e a esteira.
      </div>
      <br>
      <img width="900px" src="/img/emailEnviado.PNG"></img>
+     <footer>
+        Com a ajuda de um colega de trabalho Paulo, fizemos o refatoramento do código no dia 09/11/2021.
+     </footer>
 </body>
 </html>
