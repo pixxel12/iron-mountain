@@ -12,7 +12,7 @@
      </div>
      <h3> Ultilização da API de email da GOOGLE.</h3>
      <div>O Usuario coloca as informações que serão necessárias, contendo os apontamentos do colaborador</div><br>
-     <img width="900px" src="/img/Capturar.PNG"></img>
+     <img style="border-color: #FFFF" width="900px" src="/img/Capturar.PNG"></img>
      <div>
         <h2>Email que chega na caixa de mensagens do colaborador</h2>
         </div>
