@@ -1,17 +1,18 @@
 
 /**
- * Variaveis de scopo global para acesso as guias do Google Sheets
- * 
+ * Variaveis de scopo global para acesso as guias do Sheets
  */
  var planilha = SpreadsheetApp.getActiveSpreadsheet();
  var guiaapontamento = planilha.getSheetByName("apontamento");
  var guiadados = planilha.getSheetByName("dados");
  var guiaemail = planilha.getSheetByName("lista_email");
+ 
  /**
   * Enviar e-mail a partir da guia dados
   *  @return {void}
   */
  function enviaEmail() {
+   filtroEmail()
    let conteudoEmail = bodyEmail()
    while (guiadados.getRange("A8").getValue() != "") {
      email = deleteEnviado()
@@ -21,11 +22,19 @@
        htmlBody: conteudoEmail,
        name: "Apontamento",
      }
- 
      MailApp.sendEmail(mensagem);
    }
  }
  
+ /**
+  * Formula para buscar os emails da guiaemail
+  * @return{void}
+  */
+ function filtroEmail() {
+   for (let i = 8; i <= 30; i++) {
+     guiadados.getRange("Q" + i).setFormula('=IFERROR(VLOOKUP(C:C;lista_email!A2:C75;2;FALSE);"")');
+   }
+ }
  /**
   * Deletar emails que ja foram enviados
   * @param{String} emailDeletar
@@ -43,7 +52,7 @@
  }
  
  /**
-  * 
+  *  Define as informações do corpo do email
   */
  function bodyEmail() {
    let ultimaLinhaPreenchida = pegarObjetoUltimalinha()
