@@ -20,6 +20,9 @@
      </div>
      <br>
      <img width="900px" src="/img/emailEnviado.PNG"></img>
+     <div>
+      Atualização [3.0]: Atualizamos o range da foruma procv, para centralizar no Fernando, a entrada e saida de colaboradores, aumentando a eficiencia e precisão das informações.
+     </div>
      <footer>
         Com a ajuda de um colega de trabalho Paulo, fizemos o refatoramento do código no dia 09/11/2021.
      </footer>
