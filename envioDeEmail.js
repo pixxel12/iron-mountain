@@ -12,6 +12,7 @@
   *  @return {void}
   */
  function enviaEmail() {
+   let horario = Browser.inputBox("Insira o corpo do e-mail aqui 😉")
    filtroEmail()
    let ultimaLinhaPreenchida = pegarObjetoUltimalinha()
    for (let i=8; i <= ultimaLinhaPreenchida['guiaDadosUltimaLinha']; i++){
@@ -20,7 +21,7 @@
      let mensagem = {
        to: email,
        subject: "Correção de Processos ⏰",
-       htmlBody: conteudoEmail,
+       htmlBody: horario + conteudoEmail,
        name: "Apontamento",
      }
      MailApp.sendEmail(mensagem);
@@ -130,7 +131,7 @@
  
  /**
   * Identificar ultima linha preenchida das guias email e dados.
-  *  @return {objeto}
+  * @return {objeto}
   */
  function pegarObjetoUltimalinha() {
    let objetoultimalinha = {
