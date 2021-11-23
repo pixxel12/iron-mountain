@@ -12,14 +12,14 @@
      </div>
      <h3> Ultilização da API de email da GOOGLE.</h3>
      <div>O Usuario coloca as informações que serão necessárias, contendo os apontamentos do colaborador</div><br>
-     <img style="border-color: #FFFF" width="900px" src="/imag/Capturar.PNG"></img>
+     <img style="border-color: #FFFF" width="900px" src="..imag/Capturar.PNG"></img>
      <div>
         <h2>Email que chega na caixa de mensagens do colaborador</h2>
         </div>
         <div>Os colaboradores recebem individualmente os emails com seus apontamentos, com o fim de corrigir, e informar ao gestor, para dar prosseguimento com as correções e a esteira.
      </div>
      <br>
-     <img width="900px" src="/imag/emailEnviado.PNG"></img>
+     <img width="900px" src="..imag/emailEnviado.PNG"></img>
      <div>
       Atualização [3.0]: Atualizamos o range da foruma procv, para centralizar no Fernando, a entrada e saida de colaboradores, aumentando a eficiencia e precisão das informações.
      </div>
